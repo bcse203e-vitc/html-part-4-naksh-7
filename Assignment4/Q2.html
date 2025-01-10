@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q2</title>
+</head>
+<body>
+    <form action="/submit" method="post">
+        <h2>Registration Form</h2>
+        <label for="fname">Full Name <br></label>
+        <input type="text" id="fname" name="fname"><br><br>
+        <label for="email1">Email <br></label>
+        <input type="email" id="email1" name="email1"><br><br>
+        <label for="Phno">Phone Number <br></label>
+        <input type="number" id="Phno" name="Phno"><br><br>
+        <label for="Gender">Gender <br></label>
+        <input type="radio" name="gender" id="Gender">
+        <label for="Gender">Male</label>
+        <input type="radio" name="gender" id="Wgender">
+        <label for="Wgender">Female</label><br><br>
+        <label for="age">Age Group</label><br>
+        <select name="Age" id="age">
+            <option value="NULL">-</option>
+            <option value="0-8">0-12</option>
+            <option value="13-19">13-19</option>
+            <option value="20-35">20-35</option>
+            <option value="35-65">35-65</option>
+            <option value="65">65+</option>
+        </select>
+        <button type="submit">Login</button><br><br>
+    </form>
+</body>
+</html>
