@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Health Survey Form</title>
+</head>
+<body>
+    <h1>Health Survey Form</h1>
+    <form>
+            <label for="name">Name: <br></label>
+            <input type="text" id="name" name="name" required><br><br>
+            <label for="age">Age: <br></label>
+            <input type="number" id="age" name="age" min="0" required><br><br>
+            <label>Gender:</label><br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label>
+            <input type="radio" id="other" name="gender" value="other">
+            <label for="other">Other</label><br><br>
+            <label for="height">Height:</label><br>
+            <input type="number" id="height" name="height" required><br><br>
+            <label for="weight">Weight:</label><br>
+            <input type="number" id="weight" name="weight" required><br><br>
+            <label>Lifestyle Questions:</label><br>
+            <input type="checkbox" id="smoke" name="lifestyle" value="smoke">
+            <label for="smoke">Do you smoke?</label><br>
+            <input type="checkbox" id="alcohol" name="lifestyle" value="alcohol">
+            <label for="alcohol">Do you consume alcohol?</label><br>
+            <input type="checkbox" id="exercise" name="lifestyle" value="exercise">
+            <label for="exercise">Do you exercise regularly?</label><br><br>
+            <label for="diet">Dietary Preference:</label>
+            <select id="diet" name="diet">
+                <option value="veg">Vegetarian</option>
+                <option value="nonveg">Non-Vegetarian</option>
+                <option value="vegan">Vegan</option>
+            </select><br><br>
+            <label for="health">Other health concerns</label><br>
+            <textarea name="Health" id="health" placeholder="Enter here" rows="5" cols="27"></textarea><br><br>
+            <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
