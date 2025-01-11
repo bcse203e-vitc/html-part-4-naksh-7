@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q9</title>
+</head>
+<body>
+    <h2>Hotel Booking</h2>
+    <form action="/submit">
+        <label for="name">Name: </label><br>
+        <input type="text" id="name" required><br><br>
+        <label for="contact">Contact Info:</label><br>
+        <input type="text" id="contact" required><br><br>
+        
+        <label for="indate">Check-in Date: </label>
+        <input type="date" id="indate" required><br><br>
+        <label for="outdate">Check-out Date: </label>
+        <input type="date" id="outdate" required><br><br>
+        <label for="travelers">No. of Travellers: </label>
+        <input type="number" id="travelers" min="1" max="20"><br><br>
+        <label for="type">Room Type:</label>
+        <select name="Destination" id="type" required>
+            <option value="Single">Single</option>
+            <option value="Double">Double</option>
+            <option value="Suite">Suite</option>
+        </select><br><br>
+        <label>Additional Services:</label><br>
+        <input type="checkbox" id="pickup">
+        <label for="pickup">Airport Pickup</label><br>
+        <input type="checkbox" id="breakfast">
+        <label for="breakfast">Breakfast</label><br><br>
+        <button >Book</button>
+    </form>
+</body>
+</html>
